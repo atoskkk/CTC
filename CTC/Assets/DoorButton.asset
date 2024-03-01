@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: DoorButton
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":86.19443,"y":67.49814},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-236.0,"y":-63.0},"guid":"6faea395-b843-4fca-9697-9102f2b0f8d3","$version":"A","$type":"EnterCell","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"ButtonPushed","$type":"System.String"},"target":null},"position":{"x":122.0,"y":-95.0},"guid":"e04a45cb-3886-4694-a69b-88f4f45ff2c7","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"DoorToOpen","$type":"System.String"},"object":null},"position":{"x":-165.0,"y":105.0},"guid":"21a04250-71d2-4495-b483-56b3f85055ac","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"cc9f11b5-3115-42ed-a3bb-5c1aba5ab152","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"4e49fbc8-cbd3-41fa-a7b3-6ecf609cbd52","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
