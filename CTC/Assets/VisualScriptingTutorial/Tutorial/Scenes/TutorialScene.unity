@@ -1737,7 +1737,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 23eaa153e74c9cb4fbe73543e8272589, type: 2}
+    - {fileID: 11400000, guid: da84cf8639f928749a33f5ea0d88ae45, type: 2}
 --- !u!114 &234937628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2818,7 +2818,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651171173}
+    - targetCorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651171172}
+    - targetCorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651171171}
   m_SourcePrefab: {fileID: 100100000, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
 --- !u!4 &495063156 stripped
 Transform:
@@ -2830,7 +2839,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4595471834842218069, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
   m_PrefabInstance: {fileID: 495063155}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1651171170}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04ef2e38ca58cd64d8719d57dcc866f6, type: 3}
@@ -6155,7 +6164,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 8dbbab2e66a4921498770719a47f4573, type: 2}
+    - {fileID: 11400000, guid: 8ff2885f1a5d0424c9459a16ba26c487, type: 2}
 --- !u!114 &1095481417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6169,8 +6178,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToOpen","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 234937626}
 --- !u!1001 &1095832460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9228,6 +9239,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a80d66dae24224ebcabfe39d23d6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1651171170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4595471834842218065, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
+  m_PrefabInstance: {fileID: 495063155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1651171171
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651171170}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 22d7d53f7b35d974ebb78899c06125a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1651171172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651171170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b1ca7ea3f8e9e7b4888f15f33680fab8, type: 2}
+--- !u!114 &1651171173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651171170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TrapDoor","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 3167424557500690278}
 --- !u!1001 &1651376603
 PrefabInstance:
   m_ObjectHideFlags: 0
